@@ -1,7 +1,11 @@
-import "jasmine-expect";
+import greeting from "../src/demo";
 
-describe("Demo", () => {
-  it("should work", () => {
-    expect(1).toBeTruthy();
+describe("Greeting", () => {
+  it("should return a string", () => {
+    expect(greeting("jest")).toEqual("Hello, jest!");
+  });
+
+  it("should return a default string, if no argument is provided", () => {
+    expect(greeting()).toEqual("Hello, world!");
   });
 });
