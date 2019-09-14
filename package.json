@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "dev": "webpack-dev-server",
-    "test": "jest | coveralls"
+    "test": "jest",
+    "test:ci": "jest --coverageReporters=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
