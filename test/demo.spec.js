@@ -1,4 +1,4 @@
-import greeting from "../src/demo";
+import greeting from "../src/js/demo";
 
 describe("Greeting", () => {
   it("should return a string", () => {
