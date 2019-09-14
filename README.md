@@ -37,5 +37,6 @@ npm test
 
 - Webpack dev server
 - Jest unit tests
+- Sass support
 - Travis CI integration
 - Coveralls integration
