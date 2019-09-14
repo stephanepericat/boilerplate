@@ -12,3 +12,30 @@ npx degit github:stephanepericat/boilerplate ./my-project
 cd ./my-project
 npm i
 ```
+
+## Tasks
+
+### Build
+
+```shell
+npm run build
+```
+
+### Dev
+
+```shell
+npm run dev
+```
+
+### Test
+
+```shell
+npm test
+```
+
+## Features
+
+- Webpack dev server
+- Jest unit tests
+- Travis CI integration
+- Coveralls integration
