@@ -1,0 +1,27 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "A webpack boilerplate",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephanepericat/boilerplate.git"
+  },
+  "author": "Stephane P. Pericat <contact@pericat.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stephanepericat/boilerplate/issues"
+  },
+  "homepage": "https://github.com/stephanepericat/boilerplate#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
