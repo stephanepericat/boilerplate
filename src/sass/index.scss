@@ -1,13 +1,8 @@
+@import "../../node_modules/reset-css/sass/reset";
 @import "variables";
-
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  font-family: $font-family;
-}
 
 body,
 html {
   height: 100%;
+  font-family: $font-family;
 }
